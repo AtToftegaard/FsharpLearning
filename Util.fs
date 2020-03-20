@@ -16,5 +16,5 @@ let PrintArray title (arr: int[]) =
 let rand = new System.Random()    
 let Shuffle (a: int[]) =
     [0..(a.Length-2)] 
-    |> Seq.iter(fun i -> Swap a i (rand.Next(0, Array.length a)))
+    |> Seq.iter(fun i -> Swap a i (rand.Next(0, Array.length a)) |> ignore)
     a

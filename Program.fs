@@ -6,9 +6,14 @@ open Util
 [<EntryPoint>]
 let main argv =
     
-    let rec BubbleSort (arr: int[]) = 
+    let mutable swapCount = 0
+    let mutable swapHistory = Array2D.init
+    let a = Array2D.init 10 10 (fun x y -> 0)
+    
+    let rec BubbleSort (arr: int array) = 
         for i = 0 to arr.Length-2 do
             if arr.[i] > arr.[i+1] then
+                swapCount <- swapCount+1
                 Swap arr i (i+1)
                 BubbleSort arr
     
