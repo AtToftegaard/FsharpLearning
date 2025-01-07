@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpLearning", "FsharpLearning.fsproj", "{AD6D7A78-F882-4C0F-8087-7AA20AC7A5C7}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Benchmarking", "..\Benchmarking\Benchmarking.fsproj", "{8BC18FE4-FF07-4C2D-B8AD-C3D866F0487F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ExampleApi", "..\ExampleApi\ExampleApi.fsproj", "{36298331-0954-40DD-9959-7981511C52F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8BC18FE4-FF07-4C2D-B8AD-C3D866F0487F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC18FE4-FF07-4C2D-B8AD-C3D866F0487F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC18FE4-FF07-4C2D-B8AD-C3D866F0487F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36298331-0954-40DD-9959-7981511C52F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36298331-0954-40DD-9959-7981511C52F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36298331-0954-40DD-9959-7981511C52F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36298331-0954-40DD-9959-7981511C52F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

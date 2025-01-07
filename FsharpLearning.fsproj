@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Benchmarking.fs" />
     <Compile Include="Syntax.fs" />
     <Compile Include="Util.fs" />
     <Compile Include="Program.fs" />
